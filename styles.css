@@ -1,0 +1,142 @@
+/* COLLECTION */
+
+
+
+/* COLOR VARIABLES
+----------------------------------------------- */
+:root {
+  --dark: #212121;
+  --light1: #6F724A;
+  --light2: #ECFFB6;
+  --light3: #F1CBFF;
+}
+
+
+
+
+/* BASE STYLES
+----------------------------------------------- */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: var(--light1); 
+  color: var(--dark);
+  margin: 0;
+  padding: 0; 
+  line-height: 1.3;
+  font-size: 16px;
+  font-family: 'Roboto', sans-serif; 
+  display: grid;
+  grid-template-columns: 25vw 1fr;
+}
+
+img {
+  max-width: 100%;
+}
+
+
+
+
+
+/* TYPOGRAPHY
+----------------------------------------------- */
+a {
+  text-decoration: none;
+  color: var(--dark);
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+h1 {
+  font-weight: normal;
+  writing-mode: vertical-lr;
+  font-size: 96px;
+  letter-spacing: -0.04em;
+  text-transform: uppercase;
+  text-align: left;
+  margin-top: 0px;
+  margin-left: 0px;
+}
+
+p {
+  font-weight: normal;
+  font-size: 48px;
+  line-height: 58px;
+  letter-spacing: -0.04em;
+}
+
+
+
+
+/* NAVIGATION
+----------------------------------------------- */
+
+
+nav {
+  font-family: 'Roboto', sans-serif;  
+  font-weight: normal;
+  line-height: 58px;
+  display: grid;
+  grid-template-columns: 1fr;
+  background-color: #C4C4C4;
+}
+
+.change {
+    font-weight: 900;
+    padding: 8px;
+    font-size: 48px;
+    position: sticky;
+    text-align: center;
+    background-color: #C4C4C4;
+}
+
+.heading {
+  margin-bottom: 199px;
+  font-size: 220px;
+  padding-left: -10px;
+  padding-top: 44px;
+  color: white;
+}
+
+
+
+
+
+
+/* MAIN
+----------------------------------------------- */
+main {
+
+}
+
+.object-image {
+  max-width: 100%;
+
+}
+
+
+.object-a {
+  background: var(--light1);
+}
+
+.object-b {
+  background: var(--light1);
+}
+
+
+
+.column {
+    float: left;
+  }
+  
+  .left, .right {
+    width: 25%;
+  }
+  
+  .middle {
+    width: 50%;
+  }
